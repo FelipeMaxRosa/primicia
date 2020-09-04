@@ -1,5 +1,4 @@
 import React from "react";
-import MaxNavBar from "../../components/MaxNavBar";
 import logo from "../../assets/logo.png";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -9,8 +8,6 @@ import "./styles.css";
 export default function Home() {
   return (
     <div>
-      <MaxNavBar />
-
       <main>
         <div className="home-content">
           <img id="logo" src={logo} alt="Primicia" />
@@ -38,8 +35,8 @@ export default function Home() {
             <br />
             <p>
               Para saber sobre nossas promoções, produtos e ficar por dentro de
-              tudo na Loja Primícia, acesse e nos adicione em nossas redes
-              sociais.
+              tudo na Loja Primícia. Clique em um dos ícones abaixo e nos
+              adicione em nossas redes sociais.
             </p>
 
             <div className="home-footer">
@@ -51,7 +48,7 @@ export default function Home() {
                   <FaInstagram size={45} color="#c32aa3" />
                 </Link>
                 <Link className="icon-circle" to="#">
-                  <FaWhatsapp size={45} color="#25d366" />
+                  <FaWhatsapp size={45} color="green" />
                 </Link>
               </div>
             </div>

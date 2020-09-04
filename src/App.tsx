@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import Routes from "./routes";
 
+import "./assets/custom.css";
+
 const App = () => {
   return (
     <div className="App">
